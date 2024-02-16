@@ -1,0 +1,4 @@
+#! /bin/bash
+
+# A shortcut to make a tail for a bgzipped file
+zcat $1 | tail ${@:2}

@@ -1,0 +1,4 @@
+#! /bin/bash
+
+# A shortcut to make a head on a bgzipped file
+zcat $1 | head ${@:2}
